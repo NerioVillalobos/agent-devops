@@ -1,0 +1,17 @@
+{
+  "name": "agent-devops",
+  "version": "0.1.0",
+  "description": "CLI de Release Management para Jira + Bitbucket + Gemini",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "help": "node src/main.js help",
+    "release:scan": "node src/main.js release scan",
+    "monitor:start": "node src/main.js monitor start",
+    "monitor:stop": "node src/main.js monitor stop"
+  }
+}
